@@ -42,8 +42,15 @@ public interface StudentRepository extends CrudRepository<Student, Integer> {
 //    @Query("from Student where gender='male'")
 //    public List<Student> getStudentByGender();
 
+//    @Modifying
+//    @Transactional
+//    @Query("delete from Student where id = :id")
+//    public void deleteStudent(Integer id);
+
     @Modifying
     @Transactional
-    @Query("delete from Student where id = :id")
-    public void deleteStudent(Integer id);
+    @Query(value = "INSERT INTO student_table (stud_id, stud_name, stud_rank, stud_gender) " +
+            "VALUES (:id, :name, :rank, :gender)",
+            nativeQuery = true)
+    public void insertStudent(Integer id, String name, Long rank, String gender);
 }
