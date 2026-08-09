@@ -1,0 +1,34 @@
+Main aim of java 1.8 version:
+- Simplify the java programming
+- Enable functional programming
+- Write more readable and concise code
+
+Java 8 Features
+1) Interface changes:
+    - upto java 1.7 we can write only abstract method but from the java 1.8 we can write concrete method inside it.
+    - upto java 1.7 we can only write abstract method but from 1.8 we can write default and static methods
+
+2) Functional Interfaces (@FunctionalInterface): There are some functional interfaces got released in java 1.8 version
+    - Predicate
+    - Consumer
+    - Supplier
+    - Function
+
+3) Lambda Expression
+
+4) Methods References and Constructor References:
+    - Method reference is a shorthand syntax of lambda expression used to call an existing method directly.
+
+5) Stream APIs: imp for interview
+
+6) Optional Class: basically used to avoid the NullPointerException
+
+7) Special Iterator
+
+8) String Joiner
+
+9) Collection Framework Changes (for each method)
+
+10) Data and Time APIs
+
+------------------------------------------------------------------------------------------------------------------------------------

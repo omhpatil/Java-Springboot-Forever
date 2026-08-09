@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/14-Sorting/pom.xml" />
+        <option value="$PROJECT_DIR$/13-Pagination/pom.xml" />
+        <option value="$PROJECT_DIR$/15-QueryByExample/pom.xml" />
+        <option value="$PROJECT_DIR$/11-Spring-Data-JPA/pom.xml" />
+        <option value="$PROJECT_DIR$/02-IOC-DI-BeanFactory/pom.xml" />
+        <option value="$PROJECT_DIR$/06-Spring_Annotations/pom.xml" />
+        <option value="$PROJECT_DIR$/09-RunnersInSpringboot/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBootProjectBanner/pom.xml" />
+        <option value="$PROJECT_DIR$/12-FindByXXX-Method-DataJPA/pom.xml" />
+        <option value="$PROJECT_DIR$/01-IOC-DI-ApplicationContext/pom.xml" />
+        <option value="$PROJECT_DIR$/07-Spring_Annotation_Autowire/pom.xml" />
+        <option value="$PROJECT_DIR$/10-Value-Annotation-Springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Bean-LifeCycle-UsingXMLApproach/pom.xml" />
+        <option value="$PROJECT_DIR$/05-Bean-LifeCycle-UsingAnnotationApproach/pom.xml" />
+        <option value="$PROJECT_DIR$/04-Bean-LifeCycle-UsingProgrammaticApproach/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="22" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

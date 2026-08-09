@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/01-IOC-DI-ApplicationContext/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01-IOC-DI-ApplicationContext/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-IOC-DI-BeanFactory/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-IOC-DI-BeanFactory/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Bean-LifeCycle-UsingXMLApproach/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Bean-LifeCycle-UsingXMLApproach/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-Bean-LifeCycle-UsingProgrammaticApproach/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-Bean-LifeCycle-UsingProgrammaticApproach/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-Bean-LifeCycle-UsingAnnotationApproach/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-Bean-LifeCycle-UsingAnnotationApproach/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-Spring_Annotations/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-Spring_Annotations/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-Spring_Annotation_Autowire/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-Spring_Annotation_Autowire/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBootProjectBanner/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-RunnersInSpringboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-Value-Annotation-Springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-Spring-Data-JPA/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12-FindByXXX-Method-DataJPA/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13-Pagination/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/14-Sorting/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/15-QueryByExample/src/main/java" charset="UTF-8" />
+  </component>
+</project>

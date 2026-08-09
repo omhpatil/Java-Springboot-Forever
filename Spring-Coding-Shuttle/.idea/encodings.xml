@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/A01_BeanProgram/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/A02_DependencyInjection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/A03_Task/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/A04_LayeredAFlow/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/A05_RepositoryLayer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/A06_ServiceLayer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/A07_Validations/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/A08_Annotations/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/A09_ExceptionHandling/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/A10_Hibernate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/A11_SpringDataJPA/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/A12_Pagination/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/A13_Projection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/A14_Relationships/src/main/java" charset="UTF-8" />
+  </component>
+</project>

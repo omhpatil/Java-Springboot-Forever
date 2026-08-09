@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="A03_Task" />
+        <module name="A04_LayeredAFlow" />
+        <module name="A01_BeanProgram" />
+        <module name="A02_DependencyInjection" />
+        <module name="A05RepositoryLayer" />
+      </profile>
+      <profile name="Annotation profile for hospitalManagementSystem" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="hospitalManagementSystem" />
+      </profile>
+      <profile name="Annotation profile for A10_Hibernate" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
+        </processorPath>
+        <module name="A07_Validations (1)" />
+        <module name="A10_Hibernate (1)" />
+        <module name="A07_Validations (2)" />
+        <module name="A10_Hibernate (2)" />
+        <module name="A10_Hibernate (3)" />
+        <module name="A06_ServiceLayer" />
+        <module name="A07_Validations" />
+        <module name="A10_Hibernate" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="A01_BeanProgram" options="-parameters" />
+      <module name="A02_DependencyInjection" options="-parameters" />
+      <module name="A03_Task" options="-parameters" />
+      <module name="A04_LayeredAFlow" options="-parameters" />
+      <module name="A05RepositoryLayer" options="-parameters" />
+      <module name="A06_ServiceLayer" options="-parameters" />
+      <module name="A07_Validations" options="-parameters" />
+      <module name="A07_Validations (1)" options="-parameters" />
+      <module name="A07_Validations (2)" options="-parameters" />
+      <module name="A10_Hibernate" options="-parameters" />
+      <module name="A10_Hibernate (1)" options="-parameters" />
+      <module name="A10_Hibernate (2)" options="-parameters" />
+      <module name="A10_Hibernate (3)" options="-parameters" />
+      <module name="hospitalManagementSystem" options="-parameters" />
+    </option>
+  </component>
+</project>
