@@ -1,8 +1,10 @@
 package com.main.repository;
 
 import com.main.entity.Student;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -36,7 +38,12 @@ public interface StudentRepository extends CrudRepository<Student, Integer> {
 //    @Query("from Student")
 //    public List<Student> getStudents();
 
-    // method to get male student using gender
-    @Query("from Student where gender='male'")
-    public List<Student> getStudentByGender();
+//    // method to get male student using gender
+//    @Query("from Student where gender='male'")
+//    public List<Student> getStudentByGender();
+
+    @Modifying
+    @Transactional
+    @Query("delete from Student where id = :id")
+    public void deleteStudent(Integer id);
 }

@@ -35,8 +35,11 @@ public class Application {
 //        List<Student> students = studentRepository.getStudents();
 //        students.forEach(System.out::println);
 
-        List<Student> students = studentRepository.getStudentByGender();
-        students.forEach(System.out::println);
+//        List<Student> students = studentRepository.getStudentByGender();
+//        students.forEach(System.out::println);
+
+        studentRepository.deleteStudent(3);
+        System.out.println("Student Deleted....");
     }
 
 }
