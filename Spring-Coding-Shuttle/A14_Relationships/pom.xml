@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.codingshuttle.springboot0To100</groupId>
-	<artifactId>hospitalManagementSystem</artifactId>
+	<artifactId>A14_Relationships</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>hospitalManagementSystem</name>
+	<name>A14_Relationships</name>
 	<description>Hospital Management system in Spring Boot</description>
 	<url/>
 	<licenses>

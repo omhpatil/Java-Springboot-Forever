@@ -10,16 +10,7 @@
         <module name="A04_LayeredAFlow" />
         <module name="A01_BeanProgram" />
         <module name="A02_DependencyInjection" />
-        <module name="A05RepositoryLayer" />
-      </profile>
-      <profile name="Annotation profile for hospitalManagementSystem" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
-        </processorPath>
-        <module name="hospitalManagementSystem" />
+        <module name="A05_RepositoryLayer" />
       </profile>
       <profile name="Annotation profile for A10_Hibernate" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -28,14 +19,33 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
-        <module name="A07_Validations (1)" />
-        <module name="A10_Hibernate (1)" />
-        <module name="A07_Validations (2)" />
-        <module name="A10_Hibernate (2)" />
-        <module name="A10_Hibernate (3)" />
         <module name="A06_ServiceLayer" />
         <module name="A07_Validations" />
         <module name="A10_Hibernate" />
+      </profile>
+      <profile name="Annotation profile for A13_Projection" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
+        </processorPath>
+        <module name="A09_ExceptionHandling" />
+        <module name="A11_SpringDataJPA" />
+        <module name="A13_Projection" />
+        <module name="A08_Annotations" />
+        <module name="A12_Pagination" />
+      </profile>
+      <profile name="Annotation profile for A14_Relationships" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="A14_Relationships" />
       </profile>
     </annotationProcessing>
   </component>
@@ -45,16 +55,16 @@
       <module name="A02_DependencyInjection" options="-parameters" />
       <module name="A03_Task" options="-parameters" />
       <module name="A04_LayeredAFlow" options="-parameters" />
-      <module name="A05RepositoryLayer" options="-parameters" />
+      <module name="A05_RepositoryLayer" options="-parameters" />
       <module name="A06_ServiceLayer" options="-parameters" />
       <module name="A07_Validations" options="-parameters" />
-      <module name="A07_Validations (1)" options="-parameters" />
-      <module name="A07_Validations (2)" options="-parameters" />
+      <module name="A08_Annotations" options="-parameters" />
+      <module name="A09_ExceptionHandling" options="-parameters" />
       <module name="A10_Hibernate" options="-parameters" />
-      <module name="A10_Hibernate (1)" options="-parameters" />
-      <module name="A10_Hibernate (2)" options="-parameters" />
-      <module name="A10_Hibernate (3)" options="-parameters" />
-      <module name="hospitalManagementSystem" options="-parameters" />
+      <module name="A11_SpringDataJPA" options="-parameters" />
+      <module name="A12_Pagination" options="-parameters" />
+      <module name="A13_Projection" options="-parameters" />
+      <module name="A14_Relationships" options="-parameters" />
     </option>
   </component>
 </project>

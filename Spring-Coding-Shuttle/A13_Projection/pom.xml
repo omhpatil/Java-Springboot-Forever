@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.main</groupId>
-    <artifactId>A10_Hibernate</artifactId>
+    <artifactId>A13_Projection</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>A10_Hibernate</name>
-    <description>A10_Hibernate</description>
+    <name>A13_Projection</name>
+    <description>A13_Projection</description>
     <url/>
     <licenses>
         <license/>

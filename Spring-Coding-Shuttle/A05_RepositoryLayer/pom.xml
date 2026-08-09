@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.main</groupId>
-    <artifactId>A05RepositoryLayer</artifactId>
+    <artifactId>A05_RepositoryLayer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>A05RepositoryLayer</name>
-    <description>A05RepositoryLayer</description>
+    <name>A05_RepositoryLayer</name>
+    <description>A05_RepositoryLayer</description>
     <url/>
     <licenses>
         <license/>
