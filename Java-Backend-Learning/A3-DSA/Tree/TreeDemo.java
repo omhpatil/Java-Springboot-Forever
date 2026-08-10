@@ -1,5 +1,9 @@
 package DSA.Tree;
 
+import com.sun.jdi.Value;
+
+import java.sql.Time;
+
 class Node {
     int data;
 
@@ -79,3 +83,11 @@ public class TreeDemo {
 
     }
 }
+
+
+//        | Complexity                         | Value      |
+//        | ---------------------------------- | ---------- |
+//        | **Time**                           | `O(n)`     |
+//        | **Space (recursive)**              | `O(h)`     |
+//        | **Best/Average for balanced tree** | `O(log n)` |
+//        | **Worst case for skewed tree**     | `O(n)`     |
