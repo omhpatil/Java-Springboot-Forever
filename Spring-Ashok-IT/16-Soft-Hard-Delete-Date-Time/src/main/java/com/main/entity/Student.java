@@ -106,6 +106,19 @@ public class Student {
     public void setActiveSW(String activeSW) {
         this.activeSW = activeSW;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", Rank=" + Rank +
+                ", gender='" + gender + '\'' +
+                ", activeSW='" + activeSW + '\'' +
+                ", createDate=" + createDate +
+                ", updatedTime=" + updatedTime +
+                '}';
+    }
 }
 
 

@@ -6,6 +6,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
+import java.util.List;
+
 @SpringBootApplication
 public class Application {
 
@@ -14,12 +16,15 @@ public class Application {
 
         StudentRepository studentRepository = context.getBean(StudentRepository.class);
 
-//        Student student = new Student(1, "Om", 121L, "Male", "Y");
+//        Student students = new Student(2, "Shiv", 111L, "Male", "N");
 
-        Student student = studentRepository.findById(1).get();
-        student.setActiveSW("N");
+//        Student student = studentRepository.findById(1).get();
+//        student.setActiveSW("N");
 
-        studentRepository.save(student);
+//        studentRepository.save(students);
+
+        List<Student> student = studentRepository.findByActiveSW("Y");
+        student.forEach(System.out::println);
 
     }
 }
