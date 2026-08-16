@@ -1,9 +1,6 @@
 package DSA.Array;
 
-import java.util.HashSet;
-import java.util.Set;
-
-public class A7_Remove_duplicates_from_sorted_array {
+public class A07_Remove_duplicates_from_sorted_array {
     public static void main(String[] args) {
 
         int[] arr = {1, 1, 2, 2, 3, 4, 4};
