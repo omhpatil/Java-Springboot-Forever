@@ -19,27 +19,34 @@ public class Application {
 
         EmployeeRepository employeeRepository = context.getBean(EmployeeRepository.class);
 
-        Employee e = new Employee();
-        e.setEmpName("Viru");
-        e.setEmpSalary(1243.0);
+//        Employee e = new Employee();
+//        e.setEmpName("Viru");
+//        e.setEmpSalary(1243.0);
+//
+//        Address a = new Address();
+//        a.setCity("Pune");
+//        a.setState("Maharashtra");
+//        a.setCountry("India");
+//        a.setEmp(e);
+//
+//        Address a1 = new Address();
+//        a1.setCity("Pune");
+//        a1.setState("Maharashtra");
+//        a1.setCountry("India");
+//        a1.setEmp(e);
+//
+//        // setting address to employee
+//        List<Address> addressList = Arrays.asList(a, a1);
+//        e.setAddress(addressList);
+//
+//        employeeRepository.save(e);
+//        System.out.println("Records Inserted..");
 
-        Address a = new Address();
-        a.setCity("Pune");
-        a.setState("Maharashtra");
-        a.setCountry("India");
-        a.setEmp(e);
+        employeeRepository.deleteById(2);
+        System.out.println("Record Deleted");
 
-        Address a1 = new Address();
-        a1.setCity("Pune");
-        a1.setState("Maharashtra");
-        a1.setCountry("India");
-        a1.setEmp(e);
-
-        // setting address to employee
-        List<Address> addressList = Arrays.asList(a, a1);
-        e.setAddress(addressList);
-
-        employeeRepository.save(e);
-        System.out.println("Records Inserted..");
     }
 }
+
+// Means when u add record(employee) at that time two addresses for that record are getting added and same for delete
+// when you delete parent record which is employee that time child record addresses are also getting delete
