@@ -13,7 +13,7 @@ public class Employee {
     private String empName;
     private Double empSalary;
 
-    @OneToMany(mappedBy = "emp", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "emp", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Address> address;
 
     public Integer getEmpId() {
