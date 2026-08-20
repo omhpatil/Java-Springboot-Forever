@@ -1,0 +1,107 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Customer API",
+    "description": "REST APIs for Customer Management",
+    "contact": {
+      "name": "Om Patil",
+      "email": "patilom887@gmail.com"
+    },
+    "license": {
+      "name": "Apache 2.0"
+    },
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8080",
+      "description": "Generated server url"
+    }
+  ],
+  "paths": {
+    "/greet": {
+      "get": {
+        "tags": [
+          "customer-controller"
+        ],
+        "summary": "Get greeting message",
+        "description": "Returns a greeting message",
+        "operationId": "getGreetMsg",
+        "responses": {
+          "200": {
+            "description": "Greeting message returned successfully",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/customer": {
+      "get": {
+        "tags": [
+          "customer-controller"
+        ],
+        "summary": "Get customer",
+        "description": "Returns customer information",
+        "operationId": "getCustomer",
+        "responses": {
+          "200": {
+            "description": "Customer information retrieved successfully",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/Customer"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "customer-controller"
+        ],
+        "summary": "Get welcome message",
+        "description": "Returns a welcome message for the API",
+        "operationId": "getWelcomeMsg",
+        "responses": {
+          "200": {
+            "description": "Welcome message returned successfully",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Customer": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "gender": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
