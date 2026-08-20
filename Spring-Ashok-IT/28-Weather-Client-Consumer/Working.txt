@@ -1,0 +1,45 @@
+Working of application how request travelling and response generating:
+-----------------------------------------------------------------------------------------------
+The user requests the weather for Pune from our application.
+The request first reaches our consumer application's Controller.
+The Controller calls the Service layer, where we use RestTemplate to call the external Weather API.
+RestTemplate sends an HTTP GET request to the producer Weather API.
+The producer receives the request, processes the city information, and returns the weather details as a JSON response.
+RestTemplate receives that HTTP response and uses Spring's message-conversion mechanism to deserialize the JSON into a WeatherResponse Java object.
+The Service returns that Java object to our Controller.
+Finally, the Controller returns the object to the user, and Spring serializes it back into JSON for the HTTP response.
+------------------------------------------------------------------------------------------------
+User
+ ↓
+Consumer Controller
+ ↓
+Consumer Service
+ ↓
+RestTemplate
+ ↓
+HTTP GET Request
+ ↓
+Weather Producer API
+ ↓
+Process Request
+ ↓
+JSON Response
+ ↓
+RestTemplate
+ ↓
+JSON → WeatherResponse Java Object
+ ↓
+Consumer Service
+ ↓
+Consumer Controller
+ ↓
+Java Object → JSON
+ ↓
+User
+------------------------------------------------------------------------------------------------
+Our application acts as a REST client/consumer. When the user requests weather data,
+the Controller passes the request to the Service layer. The Service uses RestTemplate
+to synchronously call the external Weather API. The producer processes the request
+and returns JSON data. RestTemplate receives the response and converts the JSON into
+a Java object, which is returned by our Controller as a JSON response to the user.
+------------------------------------------------------------------------------------------------
