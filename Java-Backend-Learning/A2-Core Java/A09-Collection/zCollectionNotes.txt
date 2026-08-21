@@ -1,0 +1,15 @@
+- What is Collections Framework?
+    It’s a set of classes and interfaces in Java used to store, manipulate, and retrieve data efficiently.
+- Located in the package:
+    import java.util.*;
+
+- Summary Table:
+
+| Type  | Interface/Class | Allows Duplicates | Ordered         | Thread-safe | Example         |
+| ----- | --------------- | ----------------- | --------------- | ----------- | --------------- |
+| List  | ArrayList       | ✅                 | ✅               | ❌           | Student List    |
+| List  | LinkedList      | ✅                 | ✅               | ❌           | Playlist        |
+| Set   | HashSet         | ❌                 | ❌               | ❌           | Unique cities   |
+| Map   | HashMap         | ❌ (keys)          | ❌               | ❌           | Key-Value pairs |
+| Map   | Hashtable       | ❌ (keys)          | ❌               | ✅           | Thread-safe map |
+| Queue | PriorityQueue   | ✅                 | ✅ (by priority) | ❌           | Task queue      |
