@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="M3-GREET-SERVICE" />
+        <module name="M1-EUREKA-SERVER" />
+        <module name="M2-ADMIN-SERVER" />
+        <module name="M4-WELCOME-SERVICE" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="M1-EUREKA-SERVER" options="-parameters" />
+      <module name="M2-ADMIN-SERVER" options="-parameters" />
+      <module name="M3-GREET-SERVICE" options="-parameters" />
+      <module name="M4-WELCOME-SERVICE" options="-parameters" />
+    </option>
+  </component>
+</project>
